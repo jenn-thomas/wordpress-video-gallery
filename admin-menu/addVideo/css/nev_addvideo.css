@@ -1,0 +1,60 @@
+/**
+ * css for add video back end page
+ */
+ 
+.neVideoProgBarContainer{
+    width: 100px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    padding-bottom: 10px;
+}
+.neVideoProgressBar{
+    height:5px;
+    background: silver;
+    border: 1px gray solid;
+    float: left;
+}
+.nev-video-player{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+.nev-video-player-container{
+    width: 70%;
+    max-height: 320px;
+    height: 320px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nev-video-desc{
+    margin: 20px;
+}
+
+.nev_video.hover {
+    background-color: #D6F5D6;
+    -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.nev_video {
+	border:2px solid white; 
+	padding-left:10px; 
+	padding-right:10px; 
+	width:300px;
+}
+
+.nev-close-btn {
+    padding: 1px 5px;
+    background-color: #605F61;
+    border-radius: 20px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}

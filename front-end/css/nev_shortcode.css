@@ -1,0 +1,109 @@
+body 
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+.nevbackdrop
+	{
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		background: #000;
+		opacity: .0;
+		filter: alpha(opacity=0);
+		z-index: 1001;
+		display: none;
+}
+
+div.nevbox
+	{
+		position: fixed;
+ 		margin: 0 auto;
+		z-index: 1002;
+		filter: alpha(opacity=0);
+		display: none;
+		padding: 10px;
+		-moz-box-shadow: 0px 0px 5px #444444;
+		-webkit-box-shadow: 0px 0px 5px #444444;
+		box-shadow: 0px 0px 5px #444444;
+		color: white;
+}
+
+div.nevpopup {
+		margin: 0 auto;
+}
+
+.nevclose {
+		display: block;
+		position: absolute;
+		float: right;
+		cursor: pointer;
+		color: #FFF;
+		top: -3px;
+    	right: -2px;
+    	padding: 0px 7px;
+    	background-color: black;
+    	border-radius: 50%;
+    	text-align: center;
+    	border: 2px solid #FFF;
+    	-webkit-border-radius: 50%;
+    	-moz-border-radius: 50%;
+    	font-size: 14px;
+}
+
+div.nevImageDiv {
+    	margin: 5px;
+    	padding: 10px;
+    	height: auto;
+    	width: auto;
+    	float: left;
+}
+
+div.nevImageDiv img {
+    	display: inline;
+    	box-shadow: 1px 1px 3px 2px #ddd;
+}
+
+div.nevTitle {
+    	text-align: left;
+    	width: 275px;
+    	height:35px;
+    	font-size: 12px;
+}
+
+#nev-video-player-container{
+    	margin-right: auto;
+    	margin-left: auto;
+    	background-color: black;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(100, 100, 100, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+#search-nevbuttonFE {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #555;
+  font-size: 14px;
+  background: #dfdfdf;
+  padding: 2.5px 7.5px 2.5px 7.5px;
+  border: solid #555 1px;
+  text-decoration: none;
+}
+
+#search-nevbuttonFE:hover {
+  background: #8d96b8;
+  text-decoration: none;
+}
